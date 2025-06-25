@@ -1,9 +1,9 @@
-export default () => ({
+export default ({ env }) => ({
   graphql: {
     config: {
       endpoint: '/graphql',
       shadowCRUD: true,
-      playgroundAlways: false,
+      landingPage: true,
       depthLimit: 10,
       amountLimit: 100,
       apolloServer: {
